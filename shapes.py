@@ -22,19 +22,24 @@ turtle.mainloop()
 
 # NOTE: for part 2 of 4.3, you will add another parameter to this function
 def square(t):
-    """
-    Draw a square using Turtle t
-
-    >>> don = turtle.Turtle()
-    >>> square(don)
-    """
-    pass # Delete this line and replace it with your code
+    t = turtle.Turtle()
+    for i in range(t):
+        t.forward(100) #Assuming the side of a pentagon is 100 units
+        t.right(90)
 
 
 ## Polygon
-
+def polygon(t):
+    #Python programming to draw pentagon in turtle programming
+    t = turtle.Turtle()
+    for i in range(t):
+        t.forward(100) #Assuming the side of a pentagon is 100 units
+        t.right(360/t)
 
 ## Circle
+def circle(t):
+    t = turtle.Turtle()
+    t.circle(60)
 
 
 #------------------------------------------------------------------------------
@@ -43,3 +48,12 @@ def square(t):
 #------------------------------------------------------------------------------
 
 # If you come up with some cool drawings you'd like to share with the rest of the class, let us know!
+def art(t):
+    t = turtle.Turtle()
+
+    for i in range(t):
+        t.forward(100)
+        t.right(3)
+        t.forward(20)
+        t.rotate(40)
+        t.farward(30)
